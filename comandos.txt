@@ -1,0 +1,35 @@
+  377  touch comandos.txt main.js index.html
+  378  git add .
+  379  git commit -m "commit 01 de AvrilTihista"01~
+  380  git log
+  381  git remote add origin https://github.com/avril-tihista/20230605AvrilTihista.git
+  382  git remote -v
+  383  git push origin main
+  384  git branch feature
+  385  git checkout feature
+  386  mkdir Hardware Software SeguridadInformatica
+  387  cd Hardware
+  388  touch resumen.txt
+  389  cd ../Software
+  390  touch resumen.txt
+  391  cd ../SeguridadInformatica
+  392  touch resumen.txt
+  393  git add .
+  394  git status
+  395  git push origin feature
+  396  git checkout main
+  397  cd ..
+  398  git checkout feature
+  399  git add .
+  400  git push origin main
+  401  git commit -m "commit 02 de Avril Tihista"
+  402  git log
+  403  git push origin feature
+  404  git checkout main
+  405  mv main.js/resumenHardware.txt
+  406  mv main.js/resumenHardware.txt
+  407  mv main.js resumenHardware.txt
+  408  mv index.html resumenSoftware.txt
+  409  nano resumenSoftware.txt
+  410  nano resumenHardware.txt
+  411  history 35 > comandos.txt
