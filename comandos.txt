@@ -1,35 +1,39 @@
-  377  touch comandos.txt main.js index.html
-  378  git add .
-  379  git commit -m "commit 01 de AvrilTihista"01~
-  380  git log
-  381  git remote add origin https://github.com/avril-tihista/20230605AvrilTihista.git
-  382  git remote -v
-  383  git push origin main
-  384  git branch feature
-  385  git checkout feature
-  386  mkdir Hardware Software SeguridadInformatica
-  387  cd Hardware
-  388  touch resumen.txt
-  389  cd ../Software
-  390  touch resumen.txt
-  391  cd ../SeguridadInformatica
-  392  touch resumen.txt
-  393  git add .
-  394  git status
-  395  git push origin feature
-  396  git checkout main
-  397  cd ..
-  398  git checkout feature
-  399  git add .
-  400  git push origin main
-  401  git commit -m "commit 02 de Avril Tihista"
-  402  git log
-  403  git push origin feature
-  404  git checkout main
-  405  mv main.js/resumenHardware.txt
-  406  mv main.js/resumenHardware.txt
-  407  mv main.js resumenHardware.txt
-  408  mv index.html resumenSoftware.txt
-  409  nano resumenSoftware.txt
-  410  nano resumenHardware.txt
-  411  history 35 > comandos.txt
+   1 git init
+   2  touch comandos.txt main.js index.html
+   3  git add .
+   4  git commit -m "commit 01 de AvrilTihista"01~
+   5  git log
+   6  git remote add origin https://github.com/avril-tihista/20230605AvrilTihista.git
+   7  git remote -v
+   8  git push origin main
+   9  git branch feature
+   10  git checkout feature
+   11 mkdir Hardware Software SeguridadInformatica
+   12  cd Hardware
+   13  touch resumen.txt
+   14  cd ../Software
+   15  touch resumen.txt
+   16  cd ../SeguridadInformatica
+   17  touch resumen.txt
+   18  git add .
+   19  git status
+   20  git push origin feature
+   21 git checkout main
+   22  cd ..
+   23  git checkout feature
+   24 git add .
+   25  git push origin main
+   26  git commit -m "commit 02 de Avril Tihista"
+   27  git log
+   28  git push origin feature
+   29 git checkout main
+   30  mv main.js/resumenHardware.txt
+   31  mv main.js/resumenHardware.txt
+   32  mv main.js resumenHardware.txt
+   33 mv index.html resumenSoftware.txt
+   34  nano resumenSoftware.txt
+   35  nano resumenHardware.txt
+   36  history 36 > comandos.txt
+   37 git commit -m "commit 03 de AvrilTihista"
+   38 git add .
+   39 git push origin main
